@@ -124,7 +124,7 @@ export default function Home() {
             <div className="flex gap-4 flex-wrap justify-center">
               {/* Botão GitHub */}
               <a
-                href="https://github.com/seuusuario"
+                href="https://github.com/RafaelAquinodev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-transparent border border-[var(--primary-accent)] text-[var(--foreground)] px-4 py-2 rounded-full font-semibold shadow hover:bg-[var(--primary)]/70 hover:text-white transition"
@@ -142,7 +142,7 @@ export default function Home() {
               </a>
               {/* Botão LinkedIn */}
               <a
-                href="https://linkedin.com/in/seuusuario"
+                href="https://www.linkedin.com/in/rafaeloliveira00/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-transparent border border-[var(--primary-accent)] text-[var(--foreground)] px-4 py-2 rounded-full font-semibold shadow hover:bg-[var(--primary)]/70 hover:text-white transition"
