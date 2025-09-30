@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ProjetosCarrossel from "./_components/projetos";
+import { FiDownload } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -103,10 +104,12 @@ export default function Home() {
                 Conheça meu histórico e competências completas!
               </p>
               <a
-                href="/caminho-para-o-cv.pdf"
+                href="/curriculo-rafael.pdf" // Lembre-se de usar o nome correto do seu arquivo
                 download
-                className="bg-white text-[var(--primary)] font-bold px-6 py-2 rounded-lg shadow transition-all border border-transparent hover:bg-[var(--background)] hover:text-white hover:border-[var(--primary)]"
+                // 2. Adicione as classes flex e o componente do ícone
+                className="bg-white text-[var(--primary)] font-bold px-6 py-2 rounded-lg shadow transition-all border border-transparent hover:bg-[var(--background)] hover:text-white hover:border-[var(--primary)] flex items-center gap-2"
               >
+                <FiDownload size={20} /> {/* Ícone adicionado aqui */}
                 Baixar CV
               </a>
             </div>
