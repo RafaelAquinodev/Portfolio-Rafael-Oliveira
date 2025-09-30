@@ -12,13 +12,13 @@ export default function Home() {
           <span className="text-[var(--primary)] ml-2">OLIVEIRA</span>
         </span>
         <nav className="flex flex-wrap justify-center space-x-6 font-semibold">
-          <a
-            className="hover:text-[var(--primary)] transition"
-            href="#projects"
-          >
+          <a className="hover:text-[var(--primary)] transition" href="projetos">
             Projetos
           </a>
-          <a className="hover:text-[var(--primary)] transition" href="#about">
+          <a
+            className="hover:text-[var(--primary)] transition"
+            href="certificados"
+          >
             Certificações
           </a>
           <a className="hover:text-[var(--primary)] transition" href="#contact">
@@ -80,7 +80,7 @@ export default function Home() {
                 que obtive ao longo da minha carreira!
               </p>
               <a
-                href="/certificacoes"
+                href="/certificados"
                 className="bg-[var(--primary)]/90 hover:bg-[var(--primary)] text-white rounded-full px-6 py-2 font-semibold shadow transition "
               >
                 Ver certificações
