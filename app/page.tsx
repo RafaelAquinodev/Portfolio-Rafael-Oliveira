@@ -104,7 +104,7 @@ export default function Home() {
                 Conheça meu histórico e competências completas!
               </p>
               <a
-                href="/curriculo-rafael.pdf" // Lembre-se de usar o nome correto do seu arquivo
+                href="/Rafael_Oliveira_CV.pdf" // Lembre-se de usar o nome correto do seu arquivo
                 download
                 // 2. Adicione as classes flex e o componente do ícone
                 className="bg-white text-[var(--primary)] font-bold px-6 py-2 rounded-lg shadow transition-all border border-transparent hover:bg-[var(--background)] hover:text-white hover:border-[var(--primary)] flex items-center gap-2"
