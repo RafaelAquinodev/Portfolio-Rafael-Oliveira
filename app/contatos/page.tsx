@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactSection from "./contactSection";
 
 export default function ContatosPage() {
   return (
@@ -35,9 +36,7 @@ export default function ContatosPage() {
         </nav>
       </header>
 
-      <div>
-        <h1>EM BREVE ....</h1>
-      </div>
+      <ContactSection />
     </main>
   );
 }
