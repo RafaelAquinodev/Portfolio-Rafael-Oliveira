@@ -22,13 +22,11 @@ export default function ContactSection() {
     setForm({ ...form, [name]: value });
   }
 
-  // Envio do formulário:
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSending(true);
     try {
       const res = await fetch("/api", {
-        // Corrija o endpoint se precisar!
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -39,12 +37,17 @@ export default function ContactSection() {
       }
       toast.success("Mensagem enviada com sucesso! 🎉");
       setForm({ name: "", email: "", message: "" });
-    } catch (err: any) {
-      toast.error(err.message || "Erro ao enviar mensagem. Tente novamente.");
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        toast.error(err.message);
+      } else {
+        toast.error("Erro ao enviar mensagem. Tente novamente.");
+      }
     } finally {
       setSending(false);
     }
   }
+
   return (
     <section className="w-full max-w-4xl mx-auto mt-8 bg-[var(--card)]/80 rounded-xl shadow-lg border border-[var(--primary-accent)] p-6 md:p-10 flex flex-col md:flex-row gap-8">
       {/* ...Lado esquerdo: informações de contato... */}
