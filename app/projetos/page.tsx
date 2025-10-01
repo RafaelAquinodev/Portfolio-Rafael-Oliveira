@@ -18,9 +18,9 @@ export default function ProjetosPage() {
         <nav className="flex flex-wrap justify-center space-x-4 md:space-x-6 font-semibold">
           <Link
             className="hover:text-[var(--primary)] transition"
-            href="/projetos" // Usando Link do Next.js para navegação interna
+            href="/" // Usando Link do Next.js para navegação interna
           >
-            Projetos
+            Home
           </Link>
           <Link
             className="hover:text-[var(--primary)] transition"

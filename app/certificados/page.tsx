@@ -17,15 +17,15 @@ export default function CertificacoesPage() {
         <nav className="flex flex-wrap justify-center space-x-4 md:space-x-6 font-semibold">
           <Link
             className="hover:text-[var(--primary)] transition"
-            href="/#projects" // Usando Link do Next.js para navegação interna
+            href="/" // Usando Link do Next.js para navegação interna
           >
-            Projetos
+            Home
           </Link>
           <Link
             className="hover:text-[var(--primary)] transition"
-            href="/#about"
+            href="/projetos"
           >
-            Sobre Mim
+            Projetos
           </Link>
           <Link
             className="hover:text-[var(--primary)] transition"

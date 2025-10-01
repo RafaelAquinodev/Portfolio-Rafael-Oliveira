@@ -1,5 +1,7 @@
 "use client";
-import * as React from "react"; // Importar React completo para usar os hooks
+import * as React from "react";
+import Link from "next/link";
+// Importar React completo para usar os hooks
 import {
   Carousel,
   CarouselContent,
@@ -12,24 +14,24 @@ import Image from "next/image";
 const projetos = [
   {
     image: "/nft.jpg",
-    alt: "Dashboard de IA",
-    title: "Dashboard de IA",
+    alt: "Metrics Nfts",
+    title: "Metrics Nfts",
     description:
-      "Painel interativo com análise preditiva, alertas inteligentes e visualização de dados de ML em tempo real.",
+      "O Metrics NFT é uma plataforma web (SaaS) desenvolvida em Next.js que oferece ferramentas avançadas para monitoramento e análise de carteiras de NFTs na blockchain Ethereum.",
   },
   {
-    image: "/automacao.jpg",
-    alt: "Automatizador de Processos",
-    title: "Automatizador de Processos",
+    image: "/radar-ia.jpg",
+    alt: "Radar competencia IA",
+    title: "Radar competencia IA",
     description:
-      "Automação personalizada de fluxos de trabalho, integração com RPA e geração automática de relatórios.",
+      "Quiz interativo de 8 perguntas que mapeia sua proficiência em ferramentas de IA, revelando oportunidades de automação e crescimento profissional.",
   },
   {
-    image: "/portfolio.jpg",
-    alt: "Portfólio Moderno",
-    title: "Portfólio Moderno",
+    image: "/vision.jpg",
+    alt: "VisionXdoc",
+    title: "VisionXdoc",
     description:
-      "Site pessoal com design responsivo, animações suaves, integrações inteligentes e dark mode.",
+      "Projeto com foco em inteligência artificial, no qual é possível realizar o upload de arquivos em PDF, iniciando uma engine que se comunica com o ChatGPT. O sistema realiza perguntas e respostas automáticas, preenchendo uma planilha template com os dados processados.",
   },
 ];
 
@@ -65,22 +67,25 @@ export default function ProjetosCarrossel() {
           {projetos.map((projeto, idx) => (
             <CarouselItem key={idx} className="flex justify-center">
               <div className="p-4 bg-[var(--card)] rounded-xl flex flex-col items-center w-[90%]">
-                <ElectricBorder
-                  className="p-2"
-                  color="#9d2ef8ff"
-                  speed={1}
-                  chaos={0.5}
-                  thickness={4}
-                  style={{ borderRadius: 16 }}
-                >
-                  <Image
-                    src={projeto.image}
-                    alt={projeto.alt}
-                    width={320}
-                    height={160}
-                    className="object-contain rounded-md border border-[var(--primary)] mb-2"
-                  />
-                </ElectricBorder>
+                <Link href="/projetos" passHref>
+                  <ElectricBorder
+                    className="p-2"
+                    color="#9d2ef8ff"
+                    speed={1}
+                    chaos={0.5}
+                    thickness={4}
+                    style={{ borderRadius: 16 }}
+                  >
+                    <Image
+                      src={projeto.image}
+                      alt={projeto.alt}
+                      width={320}
+                      height={160}
+                      className="object-contain rounded-md border border-[var(--primary)] mb-2 transition-transform duration-1000 ease-in-out hover:scale-105 cursor-pointer"
+                    />
+                  </ElectricBorder>
+                </Link>
+
                 <h3 className="font-bold text-[var(--primary)] text-lg mt-4 text-center">
                   {projeto.title}
                 </h3>

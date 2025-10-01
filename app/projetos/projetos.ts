@@ -36,7 +36,7 @@ export const projetosData: Projeto[] = [
     description:
       "Versão anterior do meu portfólio, desenvolvida com React e animações em Framer Motion para uma experiência fluida.",
     imageUrl: "/perfil-profissional.jpg",
-    githubUrl: "https://github.com/seu-usuario/portfolio-v1",
+    githubUrl: "https://github.com/RafaelAquinodev/quiz-ai",
     siteUrl: "https://quiz-perfil-profissional-ia.vercel.app/",
   },
   {
@@ -45,14 +45,14 @@ export const projetosData: Projeto[] = [
     description:
       "Uma plataforma SaaS que utiliza IA para análise preditiva de dados, com gráficos interativos e relatórios em tempo real.",
     imageUrl: "/maturidade-ia.jpg", // Coloque a imagem na pasta /public
-    githubUrl: "https://github.com/seu-usuario/dashboard-ia",
+    githubUrl: "https://github.com/RafaelAquinodev/maturidade-ai",
     siteUrl: "https://maturidadequiz-ia.vercel.app/", // Use '#' se não houver site ao vivo
   },
   {
     id: 5,
     title: "VisionXdoc",
     description:
-      "Versão anterior do meu portfólio, desenvolvida com React e animações em Framer Motion para uma experiência fluida.",
+      "Projeto com foco em inteligência artificial, no qual é possível realizar o upload de arquivos em PDF, iniciando uma engine que se comunica com o ChatGPT. O sistema realiza perguntas e respostas automá cas, preenchendo uma planilha template com os dados processados.",
     imageUrl: "/vision.jpg",
     githubUrl: "https://github.com/seu-usuario/portfolio-v1",
     siteUrl: "#",
@@ -61,8 +61,8 @@ export const projetosData: Projeto[] = [
     id: 6,
     title: "CDN-IA",
     description:
-      "Versão anterior do meu portfólio, desenvolvida com React e animações em Framer Motion para uma experiência fluida.",
-    imageUrl: "/nft.jpg",
+      "Aplicação com foco em inteligência artificial, capaz de realizar a leitura de noticias e interagir por meio de perguntas e respostas automáticas sobre o conteúdo, com retorno em formato string. Toda a comunicação é realizada através da API do ChatGPT.",
+    imageUrl: "/cdnia.jpg",
     githubUrl: "https://github.com/seu-usuario/portfolio-v1",
     siteUrl: "#",
   },
