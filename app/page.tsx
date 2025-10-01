@@ -21,7 +21,10 @@ export default function Home() {
           >
             Certificações
           </a>
-          <a className="hover:text-[var(--primary)] transition" href="#contact">
+          <a
+            className="hover:text-[var(--primary)] transition"
+            href="/contatos"
+          >
             Contatos
           </a>
         </nav>
