@@ -1,15 +1,15 @@
 "use client";
 import * as React from "react";
 import Link from "next/link";
-// Importar React completo para usar os hooks
+
+import Image from "next/image";
 import {
   Carousel,
+  CarouselApi,
   CarouselContent,
   CarouselItem,
-  type CarouselApi, // Importar o tipo da API do carrossel
-} from "@/components/ui/carousel";
+} from "../../components/ui/carousel";
 import ElectricBorder from "@/components/ElectricBorder";
-import Image from "next/image";
 
 const projetos = [
   {

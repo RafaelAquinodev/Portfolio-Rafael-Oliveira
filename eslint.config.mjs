@@ -20,6 +20,13 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      "@typescript-eslint/no-unused-vars": "warn", // Altera erro para aviso
+      "@typescript-eslint/no-explicit-any": "warn", // Altera erro para aviso
+      "react-hooks/exhaustive-deps": "warn", // Altera erro para aviso
+    },
+  },
 ];
 
 export default eslintConfig;

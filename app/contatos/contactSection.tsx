@@ -13,8 +13,6 @@ export default function ContactSection() {
   // Estado dos campos:
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sending, setSending] = useState(false);
-  const [success, setSuccess] = useState("");
-  const [error, setError] = useState("");
 
   // Handler de mudança:
   function handleChange(
@@ -182,8 +180,6 @@ export default function ContactSection() {
         >
           {sending ? "Enviando..." : "Enviar Mensagem"}
         </button>
-        {success && <p className="text-green-500 font-bold">{success}</p>}
-        {error && <p className="text-red-500 font-bold">{error}</p>}
       </form>
     </section>
   );
