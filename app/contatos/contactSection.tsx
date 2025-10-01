@@ -31,32 +31,34 @@ export default function ContactSection() {
               <FaEnvelope size={20} />
             </div>
             <span className="text-[var(--foreground)] select-all">
-              rafael@email.com
+              aquinorafaeldev@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-3">
             <div className="bg-[var(--primary-accent)]/20 text-[var(--primary-accent)] p-2 rounded-lg">
               <FaPhone size={20} />
             </div>
-            <span className="text-[var(--foreground)]">+55 75 99999-9999</span>
+            <span className="text-[var(--foreground)]">+55 2198620-1642</span>
           </div>
           <div className="flex items-center gap-3">
             <div className="bg-[var(--primary-accent)]/20 text-[var(--primary-accent)] p-2 rounded-lg">
               <FaMapMarkerAlt size={20} />
             </div>
-            <span className="text-[var(--foreground)]">Bahia, Brasil</span>
+            <span className="text-[var(--foreground)]">
+              Rio de Janeiro, Brasil
+            </span>
           </div>
         </div>
         <div className="flex gap-3 mt-auto">
           <a
-            href="mailto:rafael@email.com"
+            href="mailto:aquinorafaeldev@gmail.com"
             className="bg-[var(--primary-accent)]/20 hover:bg-[var(--primary-accent)]/30 transition text-[var(--primary-accent)] p-2 rounded-lg"
             title="Enviar e-mail"
           >
             <FaEnvelope size={22} />
           </a>
           <a
-            href="https://github.com/seuusuario"
+            href="https://github.com/RafaelAquinodev"
             target="_blank"
             rel="noopener"
             className="bg-[var(--primary-accent)]/20 hover:bg-[var(--primary-accent)]/30 transition text-[var(--primary-accent)] p-2 rounded-lg"
@@ -65,7 +67,7 @@ export default function ContactSection() {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://linkedin.com/in/seulinkedin"
+            href="https://www.linkedin.com/in/rafaeloliveira00/"
             target="_blank"
             rel="noopener"
             className="bg-[var(--primary-accent)]/20 hover:bg-[var(--primary-accent)]/30 transition text-[var(--primary-accent)] p-2 rounded-lg"
