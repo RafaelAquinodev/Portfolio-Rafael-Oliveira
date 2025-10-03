@@ -34,19 +34,19 @@ export const projetosData: Projeto[] = [
     id: 3,
     title: "Quiz Perfil Profissional IA",
     description:
-      "Versão anterior do meu portfólio, desenvolvida com React e animações em Framer Motion para uma experiência fluida.",
+      "Questionário interativo de autodiagnóstico sobre o uso de Inteligência Artificial. O projeto propõe uma reflexão sobre o perfil profissional em relação à IA, gerando um relatório final com diagnóstico e recomendações para evolução na jornada com a tecnologia",
     imageUrl: "/perfil-profissional.jpg",
     githubUrl: "https://github.com/RafaelAquinodev/quiz-ai",
-    siteUrl: "https://quiz-perfil-profissional-ia.vercel.app/",
+    siteUrl: "#",
   },
   {
     id: 4,
     title: "Quiz Maturidade IA",
     description:
-      "Uma plataforma SaaS que utiliza IA para análise preditiva de dados, com gráficos interativos e relatórios em tempo real.",
+      "Questionário de avaliação da maturidade organizacional para adoção de Inteligência Artificial. A ferramenta analisa dados, tecnologia, processos, cultura e estratégia, entregando um panorama claro do estágio atual da empresa e recomendações para a jornada de transformação com IA.",
     imageUrl: "/maturidade-ia.jpg", // Coloque a imagem na pasta /public
     githubUrl: "https://github.com/RafaelAquinodev/maturidade-ai",
-    siteUrl: "https://maturidadequiz-ia.vercel.app/", // Use '#' se não houver site ao vivo
+    siteUrl: "#", // Use '#' se não houver site ao vivo
   },
   {
     id: 5,
