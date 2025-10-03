@@ -29,7 +29,7 @@ export default function CertificacoesPage() {
           </Link>
           <Link
             className="hover:text-[var(--primary)] transition"
-            href="/#contact"
+            href="/contatos"
           >
             Contatos
           </Link>
