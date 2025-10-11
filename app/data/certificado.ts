@@ -1,32 +1,22 @@
-// Interface para definir a "forma" de um objeto de certificado
-export interface Certificado {
-  id: number;
-  title: string;
-  institution: string;
-  date: string;
-  imageUrl: string; // Caminho para a imagem do certificado na pasta /public
-  credentialUrl: string; // Link para a credencial online (LinkedIn, etc.)
-}
+import { Certificado } from "../types/certificado";
 
-// Array com todos os seus certificados
-// Para adicionar um novo, basta copiar um bloco {} e alterar as informações.
 export const certificadosData: Certificado[] = [
   {
     id: 1,
     title: "Analise e Desenvolvimento de Sistemas",
     institution: "Unigranrio",
     date: "DEZ 2023",
-    imageUrl: "/unigranrio.jpg", // Lembre-se de colocar as imagens na pasta /public
-    credentialUrl: "#", // Link de exemplo
+    imageUrl: "/unigranrio.jpg",
+    credentialUrl: "#",
   },
   {
     id: 2,
     title: "React JS do zero ao avançado",
     institution: "Matheus Fraga - Udemy",
     date: "MAI 2023",
-    imageUrl: "/react-certi.jpg", // Lembre-se de colocar as imagens na pasta /public
+    imageUrl: "/react-certi.jpg",
     credentialUrl:
-      "https://www.udemy.com/certificate/UC-fdc1b955-6515-4670-8a13-8127cf0d33c9/", // Link de exemplo
+      "https://www.udemy.com/certificate/UC-fdc1b955-6515-4670-8a13-8127cf0d33c9/",
   },
   {
     id: 3,
@@ -34,7 +24,7 @@ export const certificadosData: Certificado[] = [
     institution: "Rocketseat",
     date: "FEV 2025",
     imageUrl: "/react.jpg",
-    credentialUrl: "",
+    credentialUrl: "#",
   },
   {
     id: 4,
@@ -43,7 +33,7 @@ export const certificadosData: Certificado[] = [
     date: "SET 2025",
     imageUrl: "/certi-prompt.jpeg",
     credentialUrl:
-      "https://app.rocketseat.com.br/certificates/14fcabf8-2504-4cce-9891-421bd6f0f223", // Use '#' se não tiver um link
+      "https://app.rocketseat.com.br/certificates/14fcabf8-2504-4cce-9891-421bd6f0f223",
   },
   {
     id: 5,
@@ -81,6 +71,4 @@ export const certificadosData: Certificado[] = [
     credentialUrl:
       "https://cursos.alura.com.br/immersion/certificate/2e10782f-a387-4c44-855c-d2739599130e?lang",
   },
-
-  // Adicione quantos certificados quiser aqui, seguindo o mesmo modelo.
 ];

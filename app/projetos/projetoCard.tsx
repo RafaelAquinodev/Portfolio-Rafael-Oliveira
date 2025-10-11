@@ -2,9 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Loader2, ImageOff, Github, ExternalLink, Lock } from "lucide-react";
-import { Projeto } from "./projetos";
-// A importação do 'Projeto' pode vir de um caminho diferente dependendo da sua estrutura
-// Se o arquivo de dados está em 'src/data/projetos.ts', o caminho abaixo está correto
+import { Projeto } from "../types/projetos";
 
 interface ProjetoCardProps {
   projeto: Projeto;
@@ -57,7 +55,7 @@ export default function ProjetoCard({ projeto }: ProjetoCardProps) {
         </div>
 
         <div className="flex items-center gap-4 mt-auto">
-          {/* MUDANÇA PRINCIPAL: O botão Repositório só aparece se 'hasLiveSite' for verdadeiro */}
+          {/*Caso tenha a url, mostra o repositorio*/}
           {hasLiveSite && (
             <a
               href={projeto.githubUrl}
@@ -77,7 +75,7 @@ export default function ProjetoCard({ projeto }: ProjetoCardProps) {
             className={`flex-1 flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-center font-semibold text-white transition-colors ${
               hasLiveSite
                 ? "bg-[var(--primary)] hover:bg-[var(--primary-accent)] cursor-pointer"
-                : "bg-gray-600 cursor-not-allowed opacity-50 w-full" // w-full garante que ocupe todo o espaço
+                : "bg-gray-600 cursor-not-allowed opacity-50 w-full"
             }`}
             onClick={(e) => !hasLiveSite && e.preventDefault()}
           >

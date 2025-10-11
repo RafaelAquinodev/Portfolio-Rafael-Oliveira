@@ -1,9 +1,8 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-
-import { Loader2, ImageOff } from "lucide-react"; // Ícones para loading e erro
-import { Certificado } from "./certificados";
+import { Loader2, ImageOff } from "lucide-react";
+import { Certificado } from "../types/certificado";
 
 interface CertificadoCardProps {
   certificado: Certificado;
