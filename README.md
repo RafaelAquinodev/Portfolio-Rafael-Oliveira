@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Portfolio Rafael Oliveira!**
+Este é o meu portfólio pessoal, cuidadosamente desenvolvido para apresentar minha jornada profissional, os projetos mais impactantes que construí, meu currículo detalhado e todos os certificados que atestam minhas habilidades. Tudo isso de uma forma moderna, fluida e visualmente cativante.
 
-## Getting Started
+**Tecnologias e Stack Principal**
+Este portfólio foi construído com as seguintes tecnologias de ponta, garantindo performance e uma experiência de usuário excepcional:
 
-First, run the development server:
+- **Next.js 14+**: Framework React para renderização otimizada e performance.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário dinâmicas.
+- **TailwindCSS**: Framework CSS utilitário para um design rápido e responsivo.
+- **Prisma ORM**: ORM moderno para interagir com o banco de dados de forma segura e eficiente.
+- **Neon DB (PostgreSQL Cloud)**: Banco de dados PostgreSQL escalável e performático na nuvem.
+- **Inspiração em Bento Grid**: Layout moderno e modular para uma apresentação visual única.
+  **Funcionalidades em Destaque**
+  Explore as principais seções e recursos que você encontrará neste portfólio:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Página Inicial (Home)**: Uma introdução à minha trajetória, com minhas experiências mais recentes e um panorama das minhas habilidades.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Seção de Projetos:** Mergulhe nos meus projetos mais relevantes, com descrições detalhadas, tecnologias utilizadas e links para demonstrações ou repositórios.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Currículo para Download:** Acesse e baixe meu currículo profissional em formato PDF para uma visão completa da minha experiência.
+Galeria de Certificados: Visualize meus certificados e reconhecimentos, comprovando minhas qualificações e aprendizado contínuo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Formulário de Contato Integrado:** Entre em contato comigo facilmente através de um formulário robusto, diretamente conectado ao banco de dados (NeonDB + Prisma).
 
-## Learn More
+**Design Moderno e Intuitivo:** Desfrute de uma experiência de navegação agradável, com um design limpo, suporte a Dark Mode e responsividade total.
 
-To learn more about Next.js, take a look at the following resources:
+**Imagem do projeto**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![alt text](image.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pronto para explorar?
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Visite o Site: https://portfolio-rafael-oliveira.vercel.app/
